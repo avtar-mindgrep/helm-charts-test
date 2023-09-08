@@ -31,7 +31,7 @@ entries:
     - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
     - https://github.com/argoproj/argo-cd
     urls:
-    - https://godspeedsystems.github.io/helm-charts/argo-cd-5.45.0.tgz
+    - https://avtar-mindgrep.github.io/helm-charts/argo-cd-5.45.0.tgz
     version: 5.45.0
   test-chart:
   - apiVersion: v2
@@ -42,6 +42,6 @@ entries:
     name: test-chart
     type: application
     urls:
-    - https://godspeedsystems.github.io/helm-charts/test-chart-0.1.0.tgz
+    - https://avtar-mindgrep.github.io/helm-charts/test-chart-0.1.0.tgz
     version: 0.1.0
 generated: "2023-09-07T23:49:03.121318+05:30"
