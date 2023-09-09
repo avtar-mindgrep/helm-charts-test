@@ -33,6 +33,38 @@ entries:
     urls:
     - https://avtar-mindgrep.github.io/helm-charts/argo-cd-5.45.0.tgz
     version: 5.45.0
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: removed
+          description: Option apiVersionOverrides.autoscaling as v2 is now GA
+        - kind: removed
+          description: Codebase for autoscaling/v1 API
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v2.8.0
+    created: "2023-09-09T09:02:34.562109754Z"
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 9bcc9faf6a7f587fc8dc7cde8ebca49c278c7115893914b755ba4788bf764986
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - https://github.com/avtar-mindgrep/helm-charts-test/releases/download/argo-cd-2.7.7/argo-cd-2.7.7.tgz
+    version: 2.7.7
   test-chart:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -44,4 +76,4 @@ entries:
     urls:
     - https://avtar-mindgrep.github.io/helm-charts/test-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-07T23:49:03.121318+05:30"
+generated: "2023-09-09T09:02:34.562120454Z"
